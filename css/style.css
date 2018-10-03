@@ -1,0 +1,227 @@
+/* About */
+/* .about-img {
+  margin-left: 3%;
+} */
+
+h3,
+h5 {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.hide-on-med-and-down {
+  padding-right: 30px;
+}
+
+/* Logo */
+.brand-logo {
+  margin-top: 0.5%;
+  margin-left: 2.5%;
+}
+.brand-logo img {
+  padding-top: 5px;
+  padding-bottom: 5px !important;
+  height: 50px;
+  width: 83px;
+}
+
+.about img {
+  height: 80%;
+  width: 90%;
+}
+
+.about-img {
+  padding-top: 10%;
+}
+
+/* benefit */
+
+.benefit h3 {
+  padding-top: 2%;
+}
+
+.row.benefit {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.col.m6.s12.white-text.text-darken-3.kiri {
+  padding: 0 10% !important;
+}
+
+.col.m6.s12.white-text.text-darken-3.kanan {
+  padding: 0 10% !important;
+}
+
+.collection {
+  /* height: 290px; */
+  width: 65%;
+  margin-left: 16%;
+}
+
+.modal-europe {
+  margin-left: 16%;
+}
+
+.collection.collapsible.erope {
+  height: 292px;
+}
+
+.collapsible-header:hover {
+  color: red;
+  /* padding: 0 3rem !important; */
+}
+
+#p-korea {
+  padding-left: 12px;
+}
+
+/* buy */
+.buy h4 {
+  padding-top: 20px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.row-buy {
+  padding-bottom: 15px;
+}
+
+/* .row-buy {
+  padding-top: 3%;
+} */
+
+/* .row-buy img {
+  height: 50px;
+  width: 50px;
+} */
+
+.purcase-toped img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+}
+
+.purcase-shopee img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+}
+
+.purcase-bukalapak img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.purcase-mcash img {
+  filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
+  padding-top: 20px;
+}
+
+.btn {
+  margin-top: 4.5% !important;
+}
+
+/* testimoni */
+
+.circle.responsive-img {
+  height: 80px;
+  width: 80px;
+}
+
+.bawah p {
+  font-size: 12px;
+}
+
+.media {
+  padding-top: 45px;
+}
+
+.media p {
+  /* padding-top: 17px; */
+  font-size: 12px;
+}
+/* .media img {
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+} */
+
+#contact h4 {
+  padding-left: 4%;
+}
+
+.caption.right-align.europe h3 {
+  padding-top: 30%;
+}
+
+.section-testimonial .row {
+  padding-top: 30px !important;
+}
+
+.carousel-item p {
+  font-weight: 500;
+}
+
+/* .ig {
+  padding-bottom: 15px !important;
+}
+.wa {
+  padding-bottom: 15px !important;
+}
+
+.fb {
+  padding-bottom: 15px !important;
+} */
+
+/* small screen */
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-top: 13px !important;
+  }
+  .ig {
+    padding-bottom: 3px !important;
+  }
+  .wa {
+    padding-bottom: 3px !important;
+  }
+
+  .fb {
+    padding-bottom: 3px !important;
+    margin-left: 10px;
+  }
+
+  .caption.right-align.europe h3 {
+    padding-top: 250px;
+  }
+
+  .caption.center-align.makah h3 {
+    padding-top: 230px;
+  }
+
+  #p-korea {
+    padding-left: 25px;
+  }
+
+  .row-buy {
+    padding-bottom: 30px;
+  }
+
+  .buy h4 {
+    padding-top: 40px;
+  }
+
+  .purcase-toped img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+    padding-top: 20px;
+  }
+
+  .purcase-shopee img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+    padding-top: 20px;
+  }
+
+  .purcase-bukalapak img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.8));
+    padding-top: 40px;
+    padding-left: 0 !important;
+  }
+
+  .purcase-mcash img {
+    filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
+    padding-top: 20px;
+  }
+}
