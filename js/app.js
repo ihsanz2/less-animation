@@ -6,6 +6,9 @@ $(document).ready(function() {
     interval: 4000
   });
   $(".sidenav").sidenav();
+  $(".sidenav li").click(() => {
+    $(".sidenav").sidenav("close");
+  });
 
   $(".carousel").carousel({
     dist: 0,
@@ -19,10 +22,8 @@ $(document).ready(function() {
     $(".carousel").carousel("next");
     setTimeout(autoplay, 7000);
   }
-
   $(".modal").modal();
   $(".scrollspy").scrollSpy({
     scrollOffset: 75
   });
-  AOS.init();
 });
