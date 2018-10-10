@@ -110,15 +110,25 @@ h5 {
 }
 
 .bawah p {
+  padding-bottom: 5px;
   font-size: 12px;
 }
 
 .media {
-  padding-top: 45px;
+  padding-top: 50px;
+  margin-left: 50px;
+}
+
+/* .media .col {
+  height: 50px !important;
+} */
+.office {
+  padding-left: 60px;
 }
 
 .media p {
   font-size: 12px;
+  padding-bottom: 5px !important;
 }
 
 #contact h4 {
@@ -211,6 +221,13 @@ h5 {
 
   .caption.center-align.makah h3 {
     padding-top: 230px;
+  }
+  .media {
+    /* padding-top: 45px; */
+    margin-left: 0px;
+  }
+  .office {
+    padding-left: 0px;
   }
 }
 
