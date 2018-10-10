@@ -1,7 +1,7 @@
 {
-  "name": "tkdi",
+  "name": "holidaySims",
   "version": "1.0.0",
-  "description": "tkdi",
+  "description": "holidaySims",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
