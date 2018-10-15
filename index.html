@@ -25,11 +25,13 @@
                 <a href="#home" class="brand-logo"><img src="./img/logo/logo.png" alt=""></a>
                 <a href="#" data-target="mobile-sims" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#about" id="tentang">About</a></li>
                     <li><a href="#benefit">Benefit</a></li>
-                    <li><a href="#destination">Destination</a></li>
-                    <li><a href="#testimonial">Testimonial</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#destination" id="tujuan">Destination</a></li>
+                    <li><a href="#testimonial" id="testi">Testimonial</a></li>
+                    <li><a href="#contact" id="kontak">Contact</a></li>
+                    <li><a href="#en" data-reload class="in_img"><img src="/img/logo/United-Kingdom.png" alt="en" id="img_in"></a></li>
+                    <li><a href="#in" data-reload class="in_img"><img src="/img/logo/in.png" alt="in" id="img_in"></a></li>
                 </ul>
             </div>
         </nav>
@@ -42,6 +44,8 @@
         <li><a href="#destination">Destination</a></li>
         <li><a href="#testimonial">Testimonial</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#en" data-reload><img src="/img/logo/United-Kingdom.png" alt="en" id="img_in"></a></li>
+        <li><a href="#in" data-reload><img src="/img/logo/in.png" alt="in" id="img_in"></a></li>
     </ul>
 
     <section id="home" class="home scrollspy">
@@ -51,17 +55,7 @@
                     <img src="./img/slider/slider2.jpg" alt="#">
                     <div class="caption left-align">
                         <h3>Holiday<span class="red-text text-darken-4"> Sims Japan</span></h3>
-                        <h5 class="red-text text-darken-4">Stay connected even when you're at mount Fuji</h5>
-
-                        <a href="https://www.tokopedia.com/holidaysimcards?source=universe&st=product" target="blank"
-                            class="btn-floating btn-large pulse red darken-4"><i class="material-icons">add_shopping_cart</i></a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./img/slider/slide1.jpg" alt="#">
-                    <div class="caption right-align">
-                        <h3>Holiday<span class="red-text text-darken-4"> Sims Korea</span></h3>
-                        <h5 class="red-text text-darken-4">Berselancar di dunia maya menjadi lebih mudah</h5>
+                        <h5 class="red-text text-darken-4" id="in_jp">Stay connected even when you're at mount Fuji</h5>
 
                         <a href="https://www.tokopedia.com/holidaysimcards?source=universe&st=product" target="blank"
                             class="btn-floating btn-large pulse red darken-4"><i class="material-icons">add_shopping_cart</i></a>
@@ -71,12 +65,24 @@
                     <img src="./img/slider/europe2.jpg" alt="#">
                     <div class="caption right-align europe">
                         <h3>Holiday<span class="red-text text-darken-4"> Sims Erope</span></h3>
-                        <h5 class="red-text text-darken-4">Plug & play and you are ready to go</h5>
+                        <h5 class="red-text text-darken-4" id="in_eropa_slide">Plug & play and you are ready to go</h5>
 
                         <a href="https://www.tokopedia.com/holidaysimcards?source=universe&st=product" target="blank"
                             class="btn-floating btn-large pulse red darken-4"><i class="material-icons">add_shopping_cart</i></a>
                     </div>
                 </li>
+
+                <li>
+                    <img src="./img/slider/slide1.jpg" alt="#">
+                    <div class="caption right-align korea">
+                        <h3>Holiday<span class="red-text text-darken-4"> Sims Korea</span></h3>
+                        <h5 class="red-text text-darken-4" id="in_korea">Connect and Online Much More Easier</h5>
+
+                        <a href="https://www.tokopedia.com/holidaysimcards?source=universe&st=product" target="blank"
+                            class="btn-floating btn-large pulse red darken-4"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                </li>
+
                 <li>
                     <img src="./img/slider/kaaba-3635723_1280.jpg" alt="#">
                     <div class="caption center-align makah">
@@ -93,24 +99,28 @@
     <!-- About -->
 
     <section id="about" class="about  scrollspy">
-        <h3 class="center red-text text-darken-3">About Us</h3>
+        <h3 class="center red-text text-darken-3" id="in_tentang">About Us</h3>
         <div class="container about-container">
             <div class="row about">
                 <div class="col m6 s12 center">
                     <div class="about-img"><img src="./img/logo/about_us.png" alt="#"></div>
                 </div>
                 <div class="col m6 s12 center ">
+                    <h6 class="kanan">PT. TEKNOLOGI KOMUNIKASI DIGITAL INDONESIA ( TKDI )</h6>
                     <p class="kanan">
-                        PT TKDI is a global Cloud Communication and IT services company incorporated
-                        in 2017. Our vision is to simplify communication for all. We have helped many
-                        enterprises achieve great results with minimal investment.
-                        <p class="kanan"><br>
+
+                        <p class="kanan" id="aboutus1">We are global Cloud Communication and IT services company
+                            incorporated
+                            in 2017. Our vision is to simplify communication for all. We have helped many
+                            enterprises achieve great results with minimal investment.</p>
+
+                        <p class="kanan" id="aboutus2">
                             Our vision does not end there. We strive to help travel enthusiasts, holiday-goers
                             and individuals like you and me to enjoy the same benefits.</p>
-                        <p class="kanan"><br>
+                        <p class="kanan" id="aboutus3">
                             With that, we are excited to present HolidaySIMcards. Simplicity has always
                             been our philosophy. So, insert one of our sim cards into your phone on your
-                            next Holiday, and surf away!</p><br>
+                            next Holiday, and surf away!</p> <br>
                         <p class="kanan"> No more Wi-Fi router… Connect up to 254 devices using your Smartphone!</p>
                     </p>
                 </div>
@@ -127,14 +137,15 @@
                 <div class="col m6 s12">
 
                     <i class="material-icons medium">sim_card</i>
-                    <h6>Insert the SIM into your phone and you are good to go!
+                    <h6 id="in_benefit1">Insert the SIM into your phone and you are good to go!
                     </h6>
 
                 </div>
                 <div class="col m6 s12">
 
                     <i class="material-icons medium white-text text-darken-3">place</i>
-                    <h6>Country specific SIM cards means highest possible speed and lowest possible cost
+                    <h6 id="in_benefit2">Country specific SIM cards means highest possible speed and lowest possible
+                        cost
                         for
                         you!
                     </h6>
@@ -145,20 +156,20 @@
                 <div class="col m6 s12">
 
                     <i class="material-icons medium">money_off</i>
-                    <h6>No high cost up-front for deposit
+                    <h6 id="in_benefit3a">No high cost up-front for deposit
                     </h6>
 
-                    <p>WIFI Router rental usually attracts IDR 500,000 for deposit,
+                    <p id="in_benefit3b">WIFI Router rental usually attracts IDR 500,000 for deposit,
                         that’s the cost of 2 or more SIM cards from us!</p>
 
                 </div>
                 <div class="col m6 s12">
 
                     <i class="material-icons medium white-text text-darken-3">delete</i>
-                    <h6>Discard the SIM after usage
+                    <h6 id="in_benefit4a">Discard the SIM after usage
                     </h6>
 
-                    <p>No more worrying over charges for damaged devices & cables
+                    <p id="in_benefit4b">No more worrying over charges for damaged devices & cables
                         Nothing to return, use and throw!</p>
 
                 </div>
@@ -168,7 +179,7 @@
 
     <!-- destination -->
     <section id="destination" class="destination scrollspy">
-        <h3 class="center destination red-text text-darken-4">Destination
+        <h3 class="center destination red-text text-darken-4" id="in_desti">Destination
             <br> and Price</h3>
         <div class="container destination-cards">
             <div class="row">
@@ -183,13 +194,13 @@
                                 <p> Rp. 188.000</p>
                             </li>
                             <li class="collection-item">
-                                <p> 1.5 Gb</p>
+                                <p> 1.5 GB</p>
                             </li>
                             <li class="collection-item grey lighten-3">
                                 <p> 7 Days</p>
                             </li>
                             <li class="collection-item">
-                                <p> All Japan Area</p>
+                                <p id="in_destiJPN"> All Japan Area</p>
                             </li>
                         </ul>
 
@@ -206,13 +217,13 @@
                                 <p> Rp. 188.000</p>
                             </li>
                             <li class="collection-item">
-                                <p class="center-align" id="p-korea"> 1.4 Gb <br> ( 200 mb/day )</p>
+                                <p class="center-align" id="p-korea"> 1.4 GB <br> ( 200 mb/day )</p>
                             </li>
                             <li class="collection-item grey lighten-3">
                                 <p> 7 Days</p>
                             </li>
                             <li class="collection-item">
-                                <p> All Korea Area</p>
+                                <p id="in_destiKor"> All Korea Area</p>
                             </li>
                         </ul>
                     </ul>
@@ -227,8 +238,8 @@
                             <li class="collection-item grey lighten-3">
                                 <p> Rp. 388.000</p>
                             </li>
-                            <li class="collection-item">
-                                <p> 1.5 Gb </p>
+                            <li class="collection-item europe">
+                                <p id="in_eropa"> 1.5 GB <br> 60 minutes outgoing local call and free incoming </p>
                             </li>
                             <li class="collection-item grey lighten-3">
                                 <p> 15 Days</p>
@@ -271,7 +282,7 @@
 
     <!-- where to buy -->
     <section id="buy" class="buy grey lighten-4">
-        <h4 class="center red-text text-darken-4">Get it Here</h4>
+        <h4 class="center red-text text-darken-4" id="getit">Get it Here</h4>
         <div class="container table">
             <div class="row row-buy  ">
                 <!-- toped image -->
@@ -307,7 +318,7 @@
         <div class="container ">
             <div class="row">
                 <div class="col s12">
-                    <h3 class="center red-text text-darken-4">Testimonial</h3>
+                    <h3 class="center red-text text-darken-4" id="testimoni">Testimonial</h3>
                     <div class="carousel carousel-slider center carousel-fixed-item">
                         <div class="carousel-item " href="#satu">
                             <div class="row">
@@ -379,7 +390,7 @@
     <!-- footer -->
     <footer id="contact" class="page-footer red darken-4 scrollspy">
         <div class="container">
-            <h4>Get in Touch</h4>
+            <h4 id="touch">Get in Touch</h4>
 
             <div class="row">
                 <div class="col m4 bawah">
@@ -410,22 +421,35 @@
                 </div>
                 <div class="col m4 offset-m4 social">
                     <ul class="media">
-                        <li class="valign-wrapper">
-                            <div class="col m2"><i class="fab fa-instagram fa-2x"></i></div>
+                        <li class="valign-wrapper sosmed">
+                            <div class="col m2"><a href="https://www.instagram.com/holidaysimcards/" target="blank"><i
+                                        class="fab fa-instagram fa-2x"></i></a>
+                            </div>
                             <div class="col m10">
-                                <p class="ig"> @holidaysimscard</p>
+                                <a href="https://www.instagram.com/holidaysimcards/">
+                                    <p class="ig"> @holidaysimscard</p>
+                                </a>
                             </div>
                         </li>
-                        <li class="valign-wrapper">
-                            <div class="col m2"><i class="fab fa-facebook-f fa-2x"></i></div>
+                        <li class="valign-wrapper sosmed">
+                            <div class="col m2"><a href="https://www.facebook.com/holidaysimcards/" target="blank"> <i
+                                        class="fab fa-facebook-f fa-2x"></i></a></div>
                             <div class="col m10">
-                                <p class="fb"> @holidaysimscard</p>
+                                <a href="https://www.facebook.com/holidaysimcards/" target="blank">
+                                    <p class="fb"> @holidaysimscard</p>
+                                </a>
+
                             </div>
                         </li>
-                        <li class="valign-wrapper">
-                            <div class="col m2"><i class="fab fa-whatsapp fa-2x"></i></div>
+                        <li class="valign-wrapper sosmed">
+                            <div class="col m2">
+                                <a href="https://api.whatsapp.com/send?phone=6281290851359" target="blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            </div>
                             <div class="col m10">
-                                <p class="wa"> (+62) 812-9085-1359</p>
+                                <a href="https://api.whatsapp.com/send?phone=6281290851359" target="blank">
+                                    <p class="wa"> (+62) 812-9085-1359</p>
+                                </a>
+
                             </div>
                         </li>
                     </ul>

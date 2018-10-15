@@ -1,6 +1,8 @@
 h3,
-h5 {
+h5,
+h6 {
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+  line-height: 130% !important;
 }
 
 .hide-on-med-and-down {
@@ -25,13 +27,28 @@ h5 {
 }
 
 .about-img {
-  padding-top: 10%;
+  padding-top: 15%;
+}
+nav ul a .in_img {
+  padding: 0 20px !important;
+}
+img#img_in {
+  margin-top: 17px;
+  float: right;
+  height: 30px;
+  width: 30px;
+
+  overflow: hidden;
+}
+
+#in_tentang {
+  margin-top: 40px;
 }
 
 /*======================================== benefit */
 
 .benefit h3 {
-  padding-top: 2%;
+  /* padding-top: 2%; */
 }
 
 .row.benefit {
@@ -67,6 +84,15 @@ h5 {
   color: red;
 }
 
+.collection-item.europe {
+  padding: 0;
+  margin: 0;
+}
+
+.collection-item.europe p {
+  text-align: center;
+  margin: 4px 0;
+}
 #p-korea {
   padding-left: 0px;
   margin: 4px;
@@ -115,8 +141,9 @@ h5 {
 }
 
 .media {
-  padding-top: 50px;
+  padding-top: 57px;
   margin-left: 50px;
+  margin-top: 0px;
 }
 
 /* .media .col {
@@ -138,6 +165,9 @@ h5 {
 .caption.right-align.europe h3 {
   padding-top: 30%;
 }
+.caption.center-align.makah h3 {
+  padding-top: 15%;
+}
 
 .section-testimonial .row {
   margin: 0px;
@@ -148,10 +178,23 @@ h5 {
 }
 
 #testimonial {
-  max-height: 350px;
+  max-height: 380px;
   overflow: hidden;
 }
-
+/* .sosmed {
+  color: white;
+  cursor: pointer;
+}
+.sosmed:hover {
+  color: rgb(0, 0, 7);
+  transition: 0.5s;
+} */
+.sosmed a {
+  color: white;
+}
+.sosmed a:hover {
+  color: black;
+}
 /*======================================= small screen */
 @media only screen and (max-width: 600px) {
   .brand-logo {
@@ -173,12 +216,14 @@ h5 {
     margin-left: 10px;
   }
 
-  .caption.right-align.europe h3 {
-    padding-top: 250px;
+  .caption.right-align.korea {
+    margin-bottom: 200px !important;
   }
-
+  .caption.right-align.europe h3 {
+    padding-top: 200px !important;
+  }
   .caption.center-align.makah h3 {
-    padding-top: 230px;
+    padding-top: 150px !important;
   }
 
   #p-korea {
@@ -215,19 +260,20 @@ h5 {
     filter: drop-shadow(1px 1px 1px rgba(8, 0, 0, 0.9));
     padding-top: 20px;
   }
-  .caption.right-align.europe h3 {
-    padding-top: 200px;
-  }
-
-  .caption.center-align.makah h3 {
-    padding-top: 230px;
-  }
   .media {
     /* padding-top: 45px; */
     margin-left: 0px;
   }
   .office {
     padding-left: 0px;
+  }
+  img#img_in {
+    margin-top: 17px;
+    margin-right: 200px;
+    float: right;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
   }
 }
 
